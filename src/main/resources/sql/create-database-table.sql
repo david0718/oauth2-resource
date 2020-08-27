@@ -6,6 +6,7 @@
 
 # 模板
 CREATE DATABASE IF NOT EXISTS coupon_db DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+use coupon_db;
 CREATE TABLE IF NOT EXISTS coupon_template_entity
 (
     id                        BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
