@@ -1,5 +1,5 @@
 # init  sample data
-
+use coupon_db;
 insert into resource_entity(url, permission)
 values ('/coupon/**', 'hasAnyAuthority("ROLE_SUPER")'),
        ('/product/**', 'hasAnyAuthority("ROLE_USER","ROLE_SUPER")'),

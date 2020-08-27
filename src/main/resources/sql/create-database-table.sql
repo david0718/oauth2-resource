@@ -5,6 +5,7 @@
 # grant all privileges on coupon_db.* to 'coupon'@'localhost';
 
 # 模板
+CREATE DATABASE IF NOT EXISTS coupon_db DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 CREATE TABLE IF NOT EXISTS coupon_template_entity
 (
     id                        BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
