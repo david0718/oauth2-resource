@@ -1,7 +1,7 @@
 ---
 applications:
   - name: resource-server
-    path: ./target/resource-server-0.0.4-SNAPSHOT.jar
+    path: ./target/oauth2-resource-0.0.1-SNAPSHOT.jar
     services:
     routes:
       - route: resource-server.apps.dhccloud.com.cn
@@ -11,3 +11,4 @@ applications:
       MYSQL_USER: '8233ae6f4b78450db80a709f5fbdbdb1'
       MYSQL_PWD: 'drz9iewj00dedusu'
       ROUTE: 'resource-server.apps.dhccloud.com.cn'
+      ISSURE_URI: 'https://identity-server.apps.dhccloud.com.cn/auth/realms/demo'
